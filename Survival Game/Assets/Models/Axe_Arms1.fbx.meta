@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 2c16b44eeed5af647bc732d89c50f51f
+timeCreated: 1473034009
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone
+    100004: Bone_end
+    100006: Camera
+    100008: clavicle.L
+    100010: clavicle.R
+    100012: finger1-1.L
+    100014: finger1-1.R
+    100016: finger1-2.L
+    100018: finger1-2.R
+    100020: finger1-3.L
+    100022: finger1-3.L_end
+    100024: finger1-3.R
+    100026: finger1-3.R_end
+    100028: finger2-1.L
+    100030: finger2-1.R
+    100032: finger2-2.L
+    100034: finger2-2.R
+    100036: finger2-3.L
+    100038: finger2-3.L_end
+    100040: finger2-3.R
+    100042: finger2-3.R_end
+    100044: finger3-1.L
+    100046: finger3-1.R
+    100048: finger3-2.L
+    100050: finger3-2.R
+    100052: finger3-3.L
+    100054: finger3-3.L_end
+    100056: finger3-3.R
+    100058: finger3-3.R_end
+    100060: finger4-1.L
+    100062: finger4-1.R
+    100064: finger4-2.L
+    100066: finger4-2.R
+    100068: finger4-3.L
+    100070: finger4-3.L_end
+    100072: finger4-3.R
+    100074: finger4-3.R_end
+    100076: finger5-1.L
+    100078: finger5-1.R
+    100080: finger5-2.L
+    100082: finger5-2.R
+    100084: finger5-3.L
+    100086: finger5-3.L_end
+    100088: finger5-3.R
+    100090: finger5-3.R_end
+    100092: Firsthuman
+    100094: Firsthuman:Body
+    100096: lowerarm01.L
+    100098: lowerarm01.R
+    100100: lowerarm02.L
+    100102: lowerarm02.L.001
+    100104: lowerarm02.L_end
+    100106: lowerarm02.R
+    100108: lowerarm02.R.001
+    100110: lowerarm02.R_end
+    100112: metacarpal1.L
+    100114: metacarpal1.R
+    100116: metacarpal2.L
+    100118: metacarpal2.R
+    100120: metacarpal3.L
+    100122: metacarpal3.R
+    100124: metacarpal4.L
+    100126: metacarpal4.R
+    100128: Plane
+    100130: Plane.003
+    100132: shoulder01.L
+    100134: shoulder01.R
+    100136: upperarm01.L
+    100138: upperarm01.R
+    100140: upperarm02.L
+    100142: upperarm02.R
+    100144: wrist.L
+    100146: wrist.R
+    400000: //RootNode
+    400002: Bone
+    400004: Bone_end
+    400006: Camera
+    400008: clavicle.L
+    400010: clavicle.R
+    400012: finger1-1.L
+    400014: finger1-1.R
+    400016: finger1-2.L
+    400018: finger1-2.R
+    400020: finger1-3.L
+    400022: finger1-3.L_end
+    400024: finger1-3.R
+    400026: finger1-3.R_end
+    400028: finger2-1.L
+    400030: finger2-1.R
+    400032: finger2-2.L
+    400034: finger2-2.R
+    400036: finger2-3.L
+    400038: finger2-3.L_end
+    400040: finger2-3.R
+    400042: finger2-3.R_end
+    400044: finger3-1.L
+    400046: finger3-1.R
+    400048: finger3-2.L
+    400050: finger3-2.R
+    400052: finger3-3.L
+    400054: finger3-3.L_end
+    400056: finger3-3.R
+    400058: finger3-3.R_end
+    400060: finger4-1.L
+    400062: finger4-1.R
+    400064: finger4-2.L
+    400066: finger4-2.R
+    400068: finger4-3.L
+    400070: finger4-3.L_end
+    400072: finger4-3.R
+    400074: finger4-3.R_end
+    400076: finger5-1.L
+    400078: finger5-1.R
+    400080: finger5-2.L
+    400082: finger5-2.R
+    400084: finger5-3.L
+    400086: finger5-3.L_end
+    400088: finger5-3.R
+    400090: finger5-3.R_end
+    400092: Firsthuman
+    400094: Firsthuman:Body
+    400096: lowerarm01.L
+    400098: lowerarm01.R
+    400100: lowerarm02.L
+    400102: lowerarm02.L.001
+    400104: lowerarm02.L_end
+    400106: lowerarm02.R
+    400108: lowerarm02.R.001
+    400110: lowerarm02.R_end
+    400112: metacarpal1.L
+    400114: metacarpal1.R
+    400116: metacarpal2.L
+    400118: metacarpal2.R
+    400120: metacarpal3.L
+    400122: metacarpal3.R
+    400124: metacarpal4.L
+    400126: metacarpal4.R
+    400128: Plane
+    400130: Plane.003
+    400132: shoulder01.L
+    400134: shoulder01.R
+    400136: upperarm01.L
+    400138: upperarm01.R
+    400140: upperarm02.L
+    400142: upperarm02.R
+    400144: wrist.L
+    400146: wrist.R
+    2300000: Plane
+    2300002: Plane.003
+    3300000: Plane
+    3300002: Plane.003
+    4300000: Plane
+    4300002: Plane.003
+    4300004: Firsthuman:Body
+    7400000: Camera|Action
+    7400002: Camera|CameraAction
+    7400004: Camera|Firsthuman:BodyAction
+    7400006: Camera|Glock_AimHip.001
+    7400008: Firsthuman|Action
+    7400010: Firsthuman|CameraAction
+    7400012: Firsthuman|Firsthuman:BodyAction
+    7400014: Firsthuman|Glock_AimHip.001
+    7400016: Firsthuman|Idle
+    7400018: Firsthuman|Idle.001
+    7400020: Firsthuman|Swing
+    7400022: Firsthuman|Walking.001
+    7400024: Firsthuman|Running
+    7400026: Firsthuman:Body|Action
+    7400028: Firsthuman:Body|CameraAction
+    7400030: Firsthuman:Body|Firsthuman:BodyAction
+    7400032: Firsthuman:Body|Glock_AimHip.001
+    7400034: Plane|Action
+    7400036: Plane|CameraAction
+    7400038: Plane|Firsthuman:BodyAction
+    7400040: Plane|Glock_AimHip.001
+    7400042: Plane|Swing
+    7400044: Plane.003|Action
+    7400046: Plane.003|CameraAction
+    7400048: Plane.003|Firsthuman:BodyAction
+    7400050: Plane.003|Glock_AimHip.001
+    7400052: Plane.003|Idle.001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Firsthuman:Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Firsthuman|Idle.001
+      takeName: Firsthuman|Idle.001
+      firstFrame: 0
+      lastFrame: 959
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Firsthuman
+        weight: 1
+      - path: Firsthuman/Bone
+        weight: 1
+      - path: Firsthuman/Bone/Bone_end
+        weight: 1
+      - path: Firsthuman/Bone/Plane
+        weight: 1
+      - path: Firsthuman/Bone/Plane/Plane.003
+        weight: 1
+      - path: Firsthuman/clavicle.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L/lowerarm01.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L/lowerarm01.L/lowerarm02.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L/lowerarm01.L/lowerarm02.L/lowerarm02.L_end
+        weight: 1
+      - path: Firsthuman/clavicle.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R/lowerarm01.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R/lowerarm01.R/lowerarm02.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R/lowerarm01.R/lowerarm02.R/lowerarm02.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L/finger1-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L/finger1-2.L/finger1-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L/finger1-2.L/finger1-3.L/finger1-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L/finger2-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L/finger2-2.L/finger2-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L/finger2-2.L/finger2-3.L/finger2-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L/finger3-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L/finger3-2.L/finger3-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L/finger3-2.L/finger3-3.L/finger3-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L/finger4-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L/finger4-2.L/finger4-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L/finger4-2.L/finger4-3.L/finger4-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L/finger5-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L/finger5-2.L/finger5-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L/finger5-2.L/finger5-3.L/finger5-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R/finger1-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R/finger1-2.R/finger1-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R/finger1-2.R/finger1-3.R/finger1-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R/finger2-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R/finger2-2.R/finger2-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R/finger2-2.R/finger2-3.R/finger2-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R/finger3-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R/finger3-2.R/finger3-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R/finger3-2.R/finger3-3.R/finger3-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R/finger4-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R/finger4-2.R/finger4-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R/finger4-2.R/finger4-3.R/finger4-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R/finger5-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R/finger5-2.R/finger5-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R/finger5-2.R/finger5-3.R/finger5-3.R_end
+        weight: 1
+      - path: Firsthuman:Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Firsthuman|Swing
+      takeName: Firsthuman|Swing
+      firstFrame: 0
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Firsthuman
+        weight: 1
+      - path: Firsthuman/Bone
+        weight: 1
+      - path: Firsthuman/Bone/Bone_end
+        weight: 1
+      - path: Firsthuman/Bone/Plane
+        weight: 1
+      - path: Firsthuman/Bone/Plane/Plane.003
+        weight: 1
+      - path: Firsthuman/clavicle.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L/lowerarm01.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L/lowerarm01.L/lowerarm02.L
+        weight: 1
+      - path: Firsthuman/clavicle.L/shoulder01.L/upperarm01.L/upperarm02.L/lowerarm01.L/lowerarm02.L/lowerarm02.L_end
+        weight: 1
+      - path: Firsthuman/clavicle.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R/lowerarm01.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R/lowerarm01.R/lowerarm02.R
+        weight: 1
+      - path: Firsthuman/clavicle.R/shoulder01.R/upperarm01.R/upperarm02.R/lowerarm01.R/lowerarm02.R/lowerarm02.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L/finger1-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L/finger1-2.L/finger1-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/finger1-1.L/finger1-2.L/finger1-3.L/finger1-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L/finger2-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L/finger2-2.L/finger2-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal1.L/finger2-1.L/finger2-2.L/finger2-3.L/finger2-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L/finger3-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L/finger3-2.L/finger3-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal2.L/finger3-1.L/finger3-2.L/finger3-3.L/finger3-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L/finger4-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L/finger4-2.L/finger4-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal3.L/finger4-1.L/finger4-2.L/finger4-3.L/finger4-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L/finger5-2.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L/finger5-2.L/finger5-3.L
+        weight: 1
+      - path: Firsthuman/lowerarm02.L.001/wrist.L/metacarpal4.L/finger5-1.L/finger5-2.L/finger5-3.L/finger5-3.L_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R/finger1-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R/finger1-2.R/finger1-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/finger1-1.R/finger1-2.R/finger1-3.R/finger1-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R/finger2-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R/finger2-2.R/finger2-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal1.R/finger2-1.R/finger2-2.R/finger2-3.R/finger2-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R/finger3-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R/finger3-2.R/finger3-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal2.R/finger3-1.R/finger3-2.R/finger3-3.R/finger3-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R/finger4-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R/finger4-2.R/finger4-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal3.R/finger4-1.R/finger4-2.R/finger4-3.R/finger4-3.R_end
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R/finger5-2.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R/finger5-2.R/finger5-3.R
+        weight: 1
+      - path: Firsthuman/lowerarm02.R.001/wrist.R/metacarpal4.R/finger5-1.R/finger5-2.R/finger5-3.R/finger5-3.R_end
+        weight: 1
+      - path: Firsthuman:Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

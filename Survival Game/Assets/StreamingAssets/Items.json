@@ -1,0 +1,288 @@
+[
+  {
+    "ID": 0,
+    "Title": "Starter Axe",
+    "Slug": "Starter_Axe",
+    "Damage": 10,
+    "Weight": 15,
+    "Amount": 1,
+    "Usable": false,
+    "Tool": true,
+    "Stackable": false,
+    "stats": {
+      "Health": 0,
+      "Hunger": 0,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 100,
+      "Stone": 20
+    },
+    "Description": "It's weak, but it gets the job done"
+  },
+  {
+    "ID": 1,
+    "Title": "Starter Pickaxe",
+    "Slug": "Starter_Pickaxe",
+    "Damage": 15,
+    "Weight": 20,
+    "Amount": 1,
+    "Usable": false,
+    "Tool": true,
+    "Stackable": false,
+    "stats": {
+      "Health": 0,
+      "Hunger": 0,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 1000,
+      "Stone": 100
+    },
+    "Description": "It's weak, but it gets the job done. Better for fighting than the Starter Axe"
+  },
+  {
+    "ID": 2,
+    "Title": "Wood Spear",
+    "Slug": "Wood_Spear",
+    "Damage": 30,
+    "Weight": 5,
+    "Amount": 1,
+    "Usable": false,
+    "Tool": true,
+    "Stackable": false,
+    "stats": {
+      "Health": 0,
+      "Hunger": 0,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 1500,
+      "Stone": 0
+    },
+    "Description": ""
+  },
+  {
+    "ID": 3,
+    "Title": "Raw Meat",
+    "Slug": "Raw_Meat",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 1,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": -20,
+      "Hunger": 1,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "DO NOT EAT UNTIL COOKED."
+  },
+  {
+    "ID": 4,
+    "Title": "Cooked Meat",
+    "Slug": "Cooked_Meat",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 1,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 1,
+      "Hunger": 20,
+      "Thirst": 5,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Good source of food."
+  },
+  {
+    "ID": 5,
+    "Title": "Wood",
+    "Slug": "Wood",
+    "Damage": 0,
+    "Weight": 5,
+    "Amount": 50,
+    "Usable": false,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 0,
+      "Hunger": 0,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Used to make a variety of tools, structures, decorations etc.."
+  },
+  {
+    "ID": 6,
+    "Title": "Stone",
+    "Slug": "Stone",
+    "Damage": 0,
+    "Weight": 10,
+    "Amount": 10,
+    "Usable": false,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 0,
+      "Hunger": 0,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Used to make various stone tools, stronger structures, fire etc..."
+  },
+  {
+    "ID": 7,
+    "Title": "Yellow Berries",
+    "Slug": "Yellow_Berries",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 5,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 1,
+      "Hunger": 10,
+      "Thirst": 3,
+      "Stamina": 10
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Yum..."
+  },
+  {
+    "ID": 8,
+    "Title": "Blue Berries",
+    "Slug": "Blue_Berries",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 5,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 1,
+      "Hunger": 3,
+      "Thirst": 10,
+      "Stamina": 10
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Yum..."
+  },
+  {
+    "ID": 9,
+    "Title": "Green Berries",
+    "Slug": "Green_Berries",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 5,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 1,
+      "Hunger": 3,
+      "Thirst": 3,
+      "Stamina": 30
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Yum..."
+  },
+  {
+    "ID": 10,
+    "Title": "Red Berries",
+    "Slug": "Red_Berries",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 5,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 5,
+      "Hunger": 3,
+      "Thirst": 3,
+      "Stamina": 10
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Yum..."
+  },
+  {
+    "ID": 11,
+    "Title": "White Berries",
+    "Slug": "White_Berries",
+    "Damage": 0,
+    "Weight": 1,
+    "Amount": 5,
+    "Usable": true,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": -10,
+      "Hunger": 1,
+      "Thirst": 1,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "I dont feel so good..."
+  },
+  {
+    "ID": 12,
+    "Title": "Campfire",
+    "Slug": "White_Berries",
+    "Damage": 0,
+    "Weight": 10,
+    "Amount": 1,
+    "Usable": false,
+    "Tool": false,
+    "Stackable": true,
+    "stats": {
+      "Health": 0,
+      "Hunger": 0,
+      "Thirst": 0,
+      "Stamina": 0
+    },
+    "CraftRequirements": {
+      "Wood": 0,
+      "Stone": 0
+    },
+    "Description": "Used to cook meat and is also a good source of light..."
+  }
+]

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 22595a46e1ea7fa4f9e7a846d6693703
+timeCreated: 1471925466
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cone
+    100002: //RootNode
+    100004: Sphere
+    100006: Sphere_001
+    100008: Armature_008
+    100010: Armature_009
+    100012: Bone
+    100014: bone
+    100016: Bone_002
+    100018: Bone_003
+    100020: Bone_004
+    100022: Bone_005
+    100024: Bone_006
+    100026: Bone_007
+    100028: Leg1_Lower
+    100030: Leg1_Lower_001
+    100032: Leg1_Upper
+    100034: Leg2_Lower
+    100036: Leg2_Upper
+    100038: Leg3_Lower
+    100040: Leg3_Upper
+    100042: Leg4_Lower
+    100044: Leg4_Upper
+    100046: Leg5_Lower
+    100048: Leg5_Upper
+    100050: Leg6_Lower
+    100052: Leg6_Upper
+    100054: Leg7_Lower
+    100056: Leg7_Upper
+    100058: Leg8_Lower
+    100060: Leg8_Upper
+    100062: Tail1
+    100064: Tail2
+    100066: Tail3
+    100068: TailFin
+    100070: TailFin_001
+    400000: Cone
+    400002: //RootNode
+    400004: Sphere
+    400006: Sphere_001
+    400008: Armature_008
+    400010: Armature_009
+    400012: Bone
+    400014: bone
+    400016: Bone_002
+    400018: Bone_003
+    400020: Bone_004
+    400022: Bone_005
+    400024: Bone_006
+    400026: Bone_007
+    400028: Leg1_Lower
+    400030: Leg1_Lower_001
+    400032: Leg1_Upper
+    400034: Leg2_Lower
+    400036: Leg2_Upper
+    400038: Leg3_Lower
+    400040: Leg3_Upper
+    400042: Leg4_Lower
+    400044: Leg4_Upper
+    400046: Leg5_Lower
+    400048: Leg5_Upper
+    400050: Leg6_Lower
+    400052: Leg6_Upper
+    400054: Leg7_Lower
+    400056: Leg7_Upper
+    400058: Leg8_Lower
+    400060: Leg8_Upper
+    400062: Tail1
+    400064: Tail2
+    400066: Tail3
+    400068: TailFin
+    400070: TailFin_001
+    2300000: Cone
+    2300002: Sphere
+    2300004: Sphere_001
+    2300006: //RootNode
+    3300000: Cone
+    3300002: Sphere
+    3300004: Sphere_001
+    3300006: //RootNode
+    4300000: Cone
+    4300002: Sphere_001
+    4300004: Sphere
+    7400000: Default Take
+    7400002: Attack
+    7400004: Swim
+    7400006: Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cone
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''MutatedShark'' conversion failed: Required human bone ''LeftFoot''
+      not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_009
+        weight: 1
+      - path: Armature_009/Armature_008
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower/Leg1_Lower_001
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower/Bone_007
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower/Bone_006
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower/Bone_005
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower/Bone_004
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower/Bone_003
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower/bone
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower/Bone_002
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin/TailFin_001
+        weight: 1
+      - path: Armature_009/Bone
+        weight: 1
+      - path: Cone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      firstFrame: -1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_009
+        weight: 1
+      - path: Armature_009/Armature_008
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower/Leg1_Lower_001
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower/Bone_007
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower/Bone_006
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower/Bone_005
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower/Bone_004
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower/Bone_003
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower/bone
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower/Bone_002
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin/TailFin_001
+        weight: 1
+      - path: Armature_009/Bone
+        weight: 1
+      - path: Cone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swim
+      takeName: Swim
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_009
+        weight: 1
+      - path: Armature_009/Armature_008
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower/Leg1_Lower_001
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower/Bone_007
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower/Bone_006
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower/Bone_005
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower/Bone_004
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower/Bone_003
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower/bone
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower/Bone_002
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin/TailFin_001
+        weight: 1
+      - path: Armature_009/Bone
+        weight: 1
+      - path: Cone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_009
+        weight: 1
+      - path: Armature_009/Armature_008
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg1_Upper/Leg1_Lower/Leg1_Lower_001
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg2_Upper/Leg2_Lower/Bone_007
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg3_Upper/Leg3_Lower/Bone_006
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg4_Upper/Leg4_Lower/Bone_005
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg5_Upper/Leg5_Lower/Bone_004
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg6_Upper/Leg6_Lower/Bone_003
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg7_Upper/Leg7_Lower/bone
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower
+        weight: 1
+      - path: Armature_009/Armature_008/Leg8_Upper/Leg8_Lower/Bone_002
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin
+        weight: 1
+      - path: Armature_009/Armature_008/Tail1/Tail2/Tail3/TailFin/TailFin_001
+        weight: 1
+      - path: Armature_009/Bone
+        weight: 1
+      - path: Cone
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Armature_009
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg4_Upper
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg1_Upper
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg4_Lower
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg1_Lower
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tail1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tail2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tail3
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TailFin
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MutatedShark(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature_009
+      position: {x: -15.30813, y: 3.4733312, z: 0.27258757}
+      rotation: {x: -0.69732726, y: 0.13131578, z: 0.13422748, w: 0.69171804}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Armature_008
+      position: {x: 8.557754, y: -3.9464228, z: -2.7381496}
+      rotation: {x: 0.003966349, y: 0.002058902, z: -0.18776742, w: 0.98220336}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: Tail1
+      position: {x: 0.14507338, y: 0.63832283, z: 4.54304e-10}
+      rotation: {x: 0.6070315, y: 0.3708519, z: -0.38419938, w: 0.5885342}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Tail2
+      position: {x: -2.9207785, y: 0.00000022724271, z: 0.000000081723556}
+      rotation: {x: -0.7168636, y: -0.011367696, z: -0.015045733, w: 0.6969584}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Tail3
+      position: {x: -2.8989813, y: 0.00000026719863, z: -0.000000003485184}
+      rotation: {x: 0.019385006, y: -0.40634605, z: 0.035065733, w: 0.9128403}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: TailFin
+      position: {x: -1.4256709, y: 0.00000013035606, z: -0.000000012048986}
+      rotation: {x: 0.0005839268, y: -0.11457553, z: -0.013236366, w: 0.99332625}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: TailFin_001
+      position: {x: -2.313591, y: 0.00000019499566, z: -0.000000004656613}
+      rotation: {x: 0.6936058, y: 0.13470791, z: -0.053542342, w: 0.7056189}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Leg8_Upper
+      position: {x: 2.0059865, y: 2.9740512, z: -1.7007043}
+      rotation: {x: -0.5560713, y: -0.18910119, z: -0.1675595, w: 0.7918013}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Leg8_Lower
+      position: {x: -1.7644913, y: 0.00000032782555, z: 0.00000014901161}
+      rotation: {x: -0.139678, y: -0.13887122, z: -0.011554655, w: 0.98034245}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Bone_002
+      position: {x: -1.2510443, y: 0.000000044703484, z: 0.0000003427267}
+      rotation: {x: -0.48789036, y: -0.13048364, z: 0.21146934, w: 0.83679014}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Leg7_Upper
+      position: {x: 5.994878, y: 3.2247298, z: -1.7121775}
+      rotation: {x: -0.45964617, y: -0.26572645, z: -0.27062196, w: 0.80304337}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg7_Lower
+      position: {x: -1.9699805, y: 0.00000071525574, z: -0.000000059604645}
+      rotation: {x: -0.24540459, y: -0.0009686857, z: -0.004460712, w: 0.96941}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: bone
+      position: {x: -0.9361596, y: -0.000000059604645, z: -0.0000004172325}
+      rotation: {x: -0.5693205, y: -0.0029250334, z: 0.0039308844, w: 0.82210106}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+      transformModified: 1
+    - name: Leg6_Upper
+      position: {x: 8.492136, y: 3.2820404, z: -2.1800935}
+      rotation: {x: -0.49242693, y: -0.21852614, z: -0.45556048, w: 0.70867956}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: Leg6_Lower
+      position: {x: -1.4652553, y: 0.00000044703484, z: -0.00000011920929}
+      rotation: {x: -0.10174764, y: -0.24558534, z: -0.10512622, w: 0.95827127}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Bone_003
+      position: {x: -1.0853313, y: -0.00000071525574, z: 0.0000004172325}
+      rotation: {x: -0.52049136, y: -0.30836692, z: 0.37329462, w: 0.7033134}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: Leg5_Upper
+      position: {x: 11.745861, y: 3.3172235, z: -1.8987875}
+      rotation: {x: -0.4808871, y: -0.20425971, z: -0.2536284, w: 0.8140628}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Leg5_Lower
+      position: {x: -1.2188222, y: -0.00000035762787, z: 0.00000011920929}
+      rotation: {x: 0.010527247, y: -0.0065997127, z: -0.0037711123, w: 0.9999157}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Bone_004
+      position: {x: -1.2477121, y: 0.00000011920929, z: -0.000000059604645}
+      rotation: {x: 0.99161613, y: 0.0021878532, z: -0.005314924, w: -0.12909073}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999994}
+      transformModified: 1
+    - name: Leg4_Upper
+      position: {x: 1.9059062, y: -1.283638, z: -1.506558}
+      rotation: {x: 0.7666088, y: 0.20259339, z: 0.5906481, w: -0.14967248}
+      scale: {x: 1, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: Leg4_Lower
+      position: {x: -1.949753, y: 0.00000011920929, z: 0.00000011920929}
+      rotation: {x: 0.9466919, y: 0.06362813, z: -0.2099405, w: -0.23590472}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Bone_005
+      position: {x: -1.4055527, y: 0.00000013783574, z: 0.000000049360096}
+      rotation: {x: -0.3783662, y: 0.4187172, z: -0.20386112, w: 0.7999723}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Leg3_Upper
+      position: {x: 5.8000603, y: -1.693886, z: -1.6091206}
+      rotation: {x: 0.8348683, y: 0.35754156, z: 0.14866221, w: -0.39122707}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Leg3_Lower
+      position: {x: -1.8861173, y: 0.00000011920929, z: -0.0000001937151}
+      rotation: {x: 0.96536165, y: -0.14193247, z: -0.14270097, w: -0.16603762}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: Bone_006
+      position: {x: -1.1157174, y: 0.0000005438924, z: -0.000000059604645}
+      rotation: {x: -0.5535007, y: 0.22897571, z: -0.23441747, w: 0.76567334}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Leg2_Upper
+      position: {x: 8.474521, y: -1.8554971, z: -2.029586}
+      rotation: {x: -0.70525396, y: -0.4268027, z: -0.24820285, w: 0.50877464}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Leg2_Lower
+      position: {x: -1.36213, y: 0.00000044703484, z: 0}
+      rotation: {x: 0.9656363, y: -0.1822832, z: -0.13162695, w: -0.13035998}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Bone_007
+      position: {x: -0.93144226, y: 0.00000011920929, z: -0.00000024586916}
+      rotation: {x: 0.5820336, y: -0.38538966, z: -0.2767712, w: 0.66038585}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg1_Upper
+      position: {x: 11.741545, y: -1.5854573, z: -1.7125384}
+      rotation: {x: 0.6263887, y: 0.41278183, z: 0.5112498, w: -0.41937104}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg1_Lower
+      position: {x: -1.3007977, y: -0.00000023841858, z: -0.000000033527613}
+      rotation: {x: 0.99903786, y: -0.004943102, z: -0.008206714, w: -0.042796444}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Leg1_Lower_001
+      position: {x: -1.6975043, y: 0, z: -0.00000035762787}
+      rotation: {x: -0.4396211, y: 0.0056767864, z: -0.0011648936, w: 0.89816463}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Bone
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.5469828, y: 0.18538661, z: -0.3674107, w: 0.72900695}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Cone
+      position: {x: 12.229515, y: -4.5365996, z: -3.1234376}
+      rotation: {x: 0.13557616, y: 0.69597846, z: -0.12996697, w: 0.69306684}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
